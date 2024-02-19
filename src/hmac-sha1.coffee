@@ -39,6 +39,8 @@ _clean_request_body = (body, query) ->
 
 
 class HMAC_SHA1
+  constructor: (request_url) ->
+    @request_url = request_url  
 
   toString: () ->
     'HMAC_SHA1'
@@ -70,6 +72,8 @@ class HMAC_SHA1
     
     parsedUrl  = url.parse originalUrl, true
     hitUrl     = protocol + '://' + req.headers.host + parsedUrl.pathname
+    if @request_url
+      hitUrl = @request_url
 
     @build_signature_raw hitUrl, parsedUrl, req.method, body, consumer_secret, token
 
