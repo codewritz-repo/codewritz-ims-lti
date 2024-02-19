@@ -11,6 +11,7 @@ exports = module.exports =
   Consumer:        require './consumer'
   OutcomeService:  extensions.Outcomes.OutcomeService
   Errors:          require './errors'
+  HMAC_SHA1:       require './hmac-sha1'
 
   Stores:
     RedisStore:   require './redis-nonce-store'
