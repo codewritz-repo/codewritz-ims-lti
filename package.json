@@ -1,10 +1,10 @@
 {
-  "name": "ims-lti",
-  "version": "3.0.2",
+  "name": "@codewritz/ims-lti",
+  "version": "3.0.3",
   "description": "Module for building an LTI Tool Provider and accept LTI launch requests",
   "author": {
-    "name": "James Rundquist",
-    "email": "james@courseshark.com"
+    "name": "Yuri",
+    "email": "yuri@codewritz.com"
   },
   "contributors": [
     {
@@ -14,6 +14,10 @@
     {
       "name": "David Kosub",
       "email": "dave@davidkosub.com"
+    },
+    {
+      "name": "Yuri",
+      "email": "yuri@codewritz.com"
     }
   ],
   "license": "MIT",
@@ -24,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/omsmith/ims-lti.git"
+    "url": "https://github.com/codewritz-repo/codewritz-ims-lti"
   },
   "bugs": {
     "url": "http://github.com/omsmith/ims-lti/issues"
